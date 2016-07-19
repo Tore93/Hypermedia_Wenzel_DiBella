@@ -1,0 +1,365 @@
+#CENTER_RIGHT{
+    position: relative;
+    float: right;
+    text-align: center;
+    min-width: 70%;
+    max-width: 70%;
+}
+
+#CENTER_RIGHT .titleCenter{
+    color: red;
+    text-shadow: 1px 1px 1px blue;;
+}
+
+
+#CENTER_RIGHT  .content{
+     text-align: center;
+     min-width: 80%;
+    max-width: 100%;
+    min-height: 40%;
+     max-height: 65%;
+    overflow: auto;
+}
+
+#CENTER_RIGHT .INDEXpart{
+    border-top: solid #307c9c;
+}
+
+#CENTER_RIGHT .sideTxtINDEX    {
+    color: #307c9c;
+    font-weight: bold;
+    transition: font-size 0.5s ease-in-out;
+}
+
+#CENTER_RIGHT .devCategory{
+    position: relative;
+    width: 200;
+    height: 200;
+    
+}
+
+#CENTER_RIGHT .devCategory img {
+    height: 100;
+}
+
+#CENTER_RIGHT .devCategory img:hover{
+    
+}
+
+#CENTER_RIGHT .tourButton{
+    position: absolute;
+    float: right;
+    bottom: 5%;
+    margin-left: 90%;
+    border: dashed blue;
+    
+}
+
+
+#CENTER_RIGHT  .content .testimonial img{
+    max-height: 200;
+    float: right;
+}
+
+#CENTER_RIGHT  .content .testimonial div{
+    max-width: 400;
+}
+
+#CENTER_RIGHT  .content .project{
+    max-width: 300;
+    position: relative;
+}
+
+
+#CENTER_RIGHT:not(a){
+    color:black;
+}
+
+ #CENTER_RIGHT .content .titleCAT{
+     text-align: center;
+     color: red;
+     text-decoration: underline;
+}
+
+
+#column1{
+   float: left;
+    left: 15%;
+    
+}
+
+#column2{
+    float:right;
+    right:15%;
+}
+
+
+#forDevices{
+    text-align: center;
+    margin:0;
+    padding: 0;
+    overflow: scroll;
+    
+}
+
+
+
+
+
+
+#smartLifeCat{
+    text-align: center;
+    
+    
+}
+
+
+#smartLifeCat #SLimg{
+    max-width: 100%;
+
+}
+
+#smartLifeCat #sideText{
+    position: absolute;
+    top:20%;
+    left:10%;
+    max-width: 30%;
+    max-height: 30%;
+    overflow:auto;
+}
+
+#smartLifeCat #bottomNext{
+    position: absolute;
+    top:50%;
+    right:5%;
+}
+
+#smartLifeCat #bottomPrev{
+    position: absolute;
+    top:50%;
+    left:5%;
+}
+
+
+#faqBUTTON {
+    max-width: 10%;
+}
+
+#faqBUTTON img{
+   width: 100%
+}
+
+
+#supportingDevBUTTON img{
+    width: 60%;
+}
+
+#nextCatBUTTON{
+   border: dashed #307c9c;
+}
+
+#nextCatBUTTON>img{
+    max-width: 15%;
+}
+
+#prevCatBUTTON{
+     border: dashed #307c9c;
+}
+
+#prevCatBUTTON img{
+      max-width: 15%;
+}
+
+
+
+
+
+
+#AScat {
+    float: left;
+    max-width: 600px;
+}
+
+#highlightsIndex {
+    float: right;
+}
+
+#highlightsIndex {
+        transition: transform 0.5s ease-in-out; 
+}
+
+#highlightsIndex:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+#deviceDescription{
+    max-width: 300px;
+    max-height: 400px;
+    top:0;
+    overflow: auto;
+    
+}
+
+#CENTER_RIGHT .deviceWindow{
+    max-height: 600px;
+    overflow: scroll;
+}
+
+#CENTER_RIGHT .SL{
+    padding: 10;
+    height: 10%;
+}
+
+#CENTER_RIGHT .SL:hover{
+    background-color: #307c9c;
+}
+
+
+#CENTER_RIGHT .upIMGs #centerIMG img{
+    max-width:250px;
+    max-height: 250px;
+}
+
+#CENTER_RIGHT .downIMGs img{
+   height: 10%;   
+}
+
+#CENTER_RIGHT .caratteristicsRAW{
+    
+    min-width: 100%;
+    margin: 0px;
+    min-height: 40px;
+    display: inline-block;
+    float: left;
+  
+}
+
+#CENTER_RIGHT .caratteristicsRAW div{
+    margin:0;
+    min-height: 20px;
+    border: solid black;
+}
+
+#CENTER_RIGHT .caratteristicsRAW .caratteristicsNAME{
+    min-width: 30%;
+    max-width: 30%;
+    float: left;
+}
+
+#CENTER_RIGHT .caratteristicsRAW .caratteristicsVALUE{
+    min-width: 65%;
+    max-width: 65%;
+    float: right;
+}
+
+#CENTER_RIGHT .caratteristicsRAW p{
+    
+}
+
+
+
+
+
+
+
+#CENTER_RiGHT #ASdescription{
+  min-width: 80%;
+    max-width: 80%;
+    
+}
+
+#CENTER_RiGHT #suppDevicesBUTTON{
+    float: right;
+}
+
+#CENTER_RiGHT #suppDevicesBUTTON>img{
+    height: 60px;
+    transition: transform 0.5s ease-in-out;
+    transition: box-shadow 0.5s ease-in-out;
+
+}
+
+ #CENTER_RIGHT #suppDevicesBUTTON>img:hover {
+    box-shadow: 0 0 10px #ccc; 
+    transform: scale(1.2);
+}
+
+
+
+
+
+#CENTER_RIGHT #infoCatLEFT{
+    float: left;
+    max-width: 40%;
+}
+
+#CENTER_RIGHT #infoCatRIGHT{
+    float: right;
+    max-width: 50%;
+}
+
+#CENTER_RIGHT #infoCatLEFT img{
+    max-width: 100%;
+}
+
+#CENTER_RIGHT #ToDevicesBUTTON{
+    padding: 10;
+    width: 50%;
+    border: dashed #307c9c;
+}
+
+#CENTER_RIGHT #ToDevicesBUTTON>img{
+    max-width: 15%;
+}
+
+#CENTER_RIGHT #imgRIGHT>img{
+    width: 50%;
+}
+
+#CENTER_RIGHT #nextCategoryBUTTON{
+    border: dashed #307c9c;
+}
+
+#CENTER_RIGHT #nextCategoryBUTTON>img{
+    max-width: 20%;
+}
+
+
+#CENTER_RIGHT .deviceRAW{
+    display: inline-block;
+    max-height: 10%;
+    text-align: center;
+}
+
+#CENTER_RIGHT .deviceRAW >h4{
+    display: inline-block;
+    max-width: 10%;
+}
+
+#CENTER_RIGHT .deviceRAW .linetoImg{
+   
+    height: 2;
+    clear: both;
+    width: 60%;
+    
+    background-color: #307c9c;
+}
+
+#CENTER_RIGHT .deviceRAW .deviceICON{
+    max-width: 15%;
+}
+
+#CENTER_RIGHT .deviceRAW .deviceICON img{
+    max-width: 50%;
+}
+
+
+
+
